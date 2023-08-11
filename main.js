@@ -67,7 +67,7 @@ setInterval(settime1, 1000)
 document.querySelector('.set').addEventListener('click', (e) => {
     e.preventDefault();
     document.querySelector('#neww').style.display='block'
-    document.querySelector('.set').innerText = 'Party Time!'
+    document.querySelector('.set span').innerText = 'Party Time!'
     var wakeupvalue = document.querySelector('#wakeUp').value
     var lunchvalue = document.querySelector('#lunch').value
     var napvalue = document.querySelector('#nap').value
@@ -146,7 +146,7 @@ document.querySelector('.set').addEventListener('click', (e) => {
 })
 
 document.querySelector('.set').addEventListener('mouseleave', () => {
-    document.querySelector('.set').innerText = 'Set Alarm!'
+    document.querySelector('.set span').innerText = 'Set Alarm!'
 
 
 
